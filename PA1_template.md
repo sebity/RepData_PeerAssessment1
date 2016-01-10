@@ -70,7 +70,7 @@ dev.off()
 ```
 
 
-![TBA](./figure/plot1.png)
+![Plot 1](./figure/plot1.png)
 
 
 
@@ -123,7 +123,7 @@ dev.off()
 ```
 
 
-![TBA](./figure/plot2.png)
+![Plot 2](./figure/plot2.png)
 
 
 **Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?**
@@ -213,7 +213,7 @@ dev.off()
 ##   2
 ```
 
-![TBA](./figure/plot3.png)
+![Plot 3](./figure/plot3.png)
 
 
 
@@ -236,6 +236,12 @@ print(paste("Median:", steps_per_day_median_2))
 ```
 ## [1] "Median: 10766.1886792453"
 ```
+
+**Observations:**
+
+Q. Do these values (mean and median) differ from the estimates from the first part of the assignment? 
+
+A. The Mean is the same, but the median has changed slightly.
 
 
 ## Are there differences in activity patterns between weekdays and weekends?
@@ -273,4 +279,10 @@ dev.off()
 ##   2
 ```
 
-![](./figure/plot4.png)
+![Plot 4](./figure/plot4.png)
+
+**Observations:**
+
+Q. Are there differences in activity patterns between weekdays and weekends? 
+
+A. Yes, from the plot you can see the person is more active during the weekends.

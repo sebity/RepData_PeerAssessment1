@@ -188,6 +188,12 @@ print(paste("Mean:", steps_per_day_mean_2))
 print(paste("Median:", steps_per_day_median_2))
 ```
 
+**Observations:**
+
+Q. Do these values (mean and median) differ from the estimates from the first part of the assignment? 
+
+A. The Mean is the same, but the median has changed slightly.
+
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
@@ -219,3 +225,9 @@ dev.off()
 ```
 
 ![Plot 4](./figure/plot4.png)
+
+**Observations:**
+
+Q. Are there differences in activity patterns between weekdays and weekends? 
+
+A. Yes, from the plot you can see the person is more active during the weekends.
